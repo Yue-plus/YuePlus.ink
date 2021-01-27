@@ -33,5 +33,5 @@ jobs:
           BRANCH: gh-pages
         run: |
           yarn
-          bash NodeJSCI.sh
+          bash deploy.sh
        
