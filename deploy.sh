@@ -10,7 +10,7 @@ yarn build
 cd build
 
 # 如果是发布到自定义域名
-echo 'note.yueplus.ink' > CNAME
+echo 'yueplus.ink' > CNAME
 
 git config --global user.name "yue-plus"
 git config --global user.email Yue_plus@foxmail.com
