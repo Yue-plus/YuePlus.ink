@@ -41,7 +41,7 @@ function Counter(c) {
 
 function GetCounter() {
     return (
-        <Get url={"http://api.yueplus.ink/counter"}>
+        <Get url={"https://api.yueplus.ink/counter"}>
             {(error, response, isLoading) => {
                 const counter = [{value: "NaN"}, {value: "NaN"}];
                 if (error) {
