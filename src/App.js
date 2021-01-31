@@ -1,28 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import {
-    AppBar,
-    Box,
-    Card,
-    CardContent,
-    Container, Grid,
-    Link,
-    Toolbar
+    Card, CardContent, Container, Grid, Link
 } from "@material-ui/core";
 import { Get } from "react-axios";
-
-
-function MyAppBar() {
-    return (
-        <AppBar position={"static"}>
-            <Toolbar>{}</Toolbar>
-        </AppBar>
-    )
-}
-
-function Welcome() {
-    return <h1><Link href="https://YuePlus.ink/">YuePlus.inkへようこそ</Link></h1>
-}
 
 function Counter(c) {
     return (
@@ -84,31 +65,14 @@ function MyProject() {
     );
 }
 
-function Footer() {
-    return (
-        <div style={{ textAlign: "center", padding: "20px 0" }}>
-            赣ICP备19008355号
-        </div>
-    );
-}
-
-function MyBody() {
-    return (
-        <Container>
-            <Welcome />
-            <GetCounter />
-            <MyProject />
-            <Footer />
-        </Container>
-    )
-}
-
 function App() {
   return (
-      <Box>
-          <MyAppBar />
-          <MyBody />
-      </Box>
+      <Container>
+          <h1><Link href="https://YuePlus.ink/">YuePlus.inkへようこそ</Link></h1>
+          <GetCounter />
+          <MyProject />
+          <div style={{ textAlign: "center", padding: "20px 0" }}>赣ICP备19008355号</div>
+      </Container>
   );
 }
 
