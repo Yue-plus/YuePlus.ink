@@ -42,6 +42,7 @@ function GetCounter() {
 function MyProject() {
     const project = [
         {text: "我的 GitHub 主页", link: "https://github.com/Yue-plus"},
+        {text: "STOMP 协议规范", link: "http://stomp.yueplus.ink/"},
         {text: "Cisco Packet Tracer帮助文档", link: "https://help.cisco.yueplus.ink/"},
         {text: "明日方舟 Hexo 主题", link: "https://github.com/Yue-plus/hexo-theme-arknights"},
         {text: "明日方舟 Hexo 主题预览", link: "https://ark.theme.yueplus.ink"},
